@@ -11,7 +11,6 @@ function updateText (){
   if(characterIndex === careers[careerIndex].length){
     careerIndex++;
     characterIndex = 0
-
   }
   if(careerIndex === careers.length){
     careerIndex = 0
