@@ -23,7 +23,6 @@ updateCounter();
     // remainingCounterElement.innerText = textareaElement.setAttribute("maxlength","200")
     // remainingCounterElement.innerText = textareaElement.getAttribute("maxlength") - textareaElement.value.length
     
-
     // Third method  
     // initalize the max length  
 
