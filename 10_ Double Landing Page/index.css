@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  font-family: serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+h1{
+  font-size: 100px;
+  color: aliceblue;
+  backdrop-filter: brightness(.5);
+  letter-spacing: 2px;
+}
+.btn{
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  font-size: 25px;
+  border: 4px solid;
+  cursor: pointer;
+  transition: 1s background-color;
+  white-space: nowrap;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+.split{
+  width: 50%;
+  height: 100%;
+  top: 0;
+}
+.split.left{
+  position: absolute;
+  left: 0;
+  background-color: pink;
+  background-image: url("https://cdn.comverseglobal.com/bareeze/products/product_images/mc1200-tblue-1.jpg%3Fwidth%3D640");
+  background-size: cover;
+}
+.split.right{
+  position: absolute;
+  right: 0;
+  background-color: lightblue;
+  background-image: url("https://pk.sapphireonline.pk/cdn/shop/files/00U2TDY24V95_4.jpg?v=1730271988&width=600");
+  background-size: cover;
+}
+.active-left .left{
+  width: 75%;
+}
+.active-right .right{
+  width: 25%;
+}
+.active-right .left{
+  width: 25%;
+}
+.active-right .right{
+  width: 75%;
+}
+.left.right{
+  transition: width 2s ease-in-out;
+}
+.left,.right{
+  transition: width 2s ease-in-out;
+}
