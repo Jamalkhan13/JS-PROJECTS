@@ -1,0 +1,1 @@
+const imageContainerElement = document.querySelector(".image-container");
