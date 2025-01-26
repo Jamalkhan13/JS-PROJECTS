@@ -22,6 +22,5 @@ kits.forEach(kit=>{
         buttonElement.style.transform = "scale(1)"
       },100)
     }
-    
   })
 })
