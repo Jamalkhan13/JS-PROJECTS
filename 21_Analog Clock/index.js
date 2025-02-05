@@ -19,7 +19,5 @@ function updateClock(){
   secondElement.style.transform = `rotate(${secondDeg}deg)`
 
 }
-
-
 updateClock();
 
